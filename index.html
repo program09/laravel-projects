@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Flat Able - Premium Admin Template by Phoenixcoded</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Favicon icon -->
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://program09.github.io/YORDIALCANTARA/public/css/Icons/css/all.min.css">
+	<!-- vendor css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/head.css">
+
+
+
+</head>
+
+<body class="">
+	<!-- [ Pre-loader ] start -->
+	<div class="loader-bg" id="miContenedor"></div>
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="nav_coded" id="aside_mav">
+		<div class="navbar-wrapper  ">
+			<div class="navbar-content scroll-div ">
+
+				<div class="">
+					<div class="main-menu-header">
+						<img class="img-radius" src="assets/images/user/avatar-2.jpg" alt="User-Profile-Image">
+						<div class="user-details"><span>Yordi</span>
+							<div id="more-details">2023 (5 - B)</div>
+						</div>
+					</div>
+				</div>
+
+				<ul class="nav pcoded-inner-navbar ">
+					<li class="nav-item pcoded-menu-caption">
+						<label>Navegación</label>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link "><span class="pcoded-micon">
+								<i class="fa-light fa-home"></i>
+							</span><span class="pcoded-mtext">Inicio</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="perfil.html" class="nav-link "><span class="pcoded-micon">
+								<i class="fa-light fa-user"></i>
+							</span><span class="pcoded-mtext">Perfíl</span>
+						</a>
+					</li>
+					<br>
+					<li class="nav-item pcoded-hasmenu pcoded-trigger">
+						<a href="#!" class="nav-link ">
+							<span class="pcoded-micon"><i class="feather icon-box"></i></span>
+							<span class="pcoded-mtext">Panel de alumno</span>
+						</a>
+						<ul class="pcoded-submenu" style="display: block;">
+							<li><a href="bc_alert.html"><i class="fa-light fa-books"></i>Mis cursos</a></li>
+							<li><a href="bc_button.html"><i class="fa-light fa-bars-progress"></i>Mis tareas</a></li>
+							<li><a href="bc_badges.html"><i class="fa-light fa-calendars"></i>Mis horarios</a></li>
+						</ul>
+					</li>
+
+				</ul>
+
+
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="pcoded-headeras navbar-light header-dark">
+
+		<div class="d-flex  align-items-center m-header">
+			<button id="btn_movil"><i class="fa-thin fa-bars"></i></button>
+			<a href="#!" class="b-brand img_logo">
+				<img src="assets/images/logo.png" alt="" class="logo">
+			</a>
+			<a href="#!" class="mob-toggler">
+				<i class="feather icon-more-vertical"></i>
+			</a>
+		</div>
+
+		<div class="pages-list d-flex">
+
+			<div class="menus_sects d-flex  align-items-center">
+
+				<div class="dropdown">
+					<button type="button" class="btn_drop_user" data-bs-toggle="dropdown">
+						<i class="fa-light fa-bell"></i>
+						<span id="num_notifi">6</span>
+					</button>
+					<div class="ntf-aste dropdown-menu more-notifics dropdown-menu-right notification ">
+						<ul class="noti-body">
+							<li class="n-title">
+								<p class="m-b-0">Notificaciones</p>
+							</li>
+							<li class="notification">
+								<div class="media">
+									<img class="img-radius" src="assets/images/user/avatar-1.jpg"
+										alt="Generic placeholder image">
+									<div class="media-body">
+										<p class="d-flex justify-content-between"><strong>John Doe</strong></p>
+										<p>New ticket Added casa no va mas porque yes ddf</p>
+										<p>01-12-12</p>
+									</div>
+								</div>
+							</li>
+							<li class="notification">
+								<div class="media">
+									<img class="img-radius" src="assets/images/user/avatar-1.jpg"
+										alt="Generic placeholder image">
+									<div class="media-body">
+										<p class="d-flex justify-content-between"><strong>John Doe</strong></p>
+										<p>New ticket Added</p>
+										<p>01-12-12</p>
+									</div>
+								</div>
+							</li>
+							<li class="notification">
+								<div class="media">
+									<img class="img-radius" src="assets/images/user/avatar-1.jpg"
+										alt="Generic placeholder image">
+									<div class="media-body">
+										<p class="d-flex justify-content-between"><strong>John Doe</strong></p>
+										<p>New ticket Added</p>
+										<p>01-12-12</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="noti-footer">
+							<a href="">Ver mis tareas</a>
+						</div>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button type="button" class="dropdown-toggle btn_drop_user" data-bs-toggle="dropdown">
+						<span>Yordi</span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#"><i class="fa-light fa-user"></i>Perfíl</a></li>
+						<li><a class="dropdown-item" href="#"><i class="fa-light fa-arrow-right-from-bracket"></i>Cerrar
+								sesión</a></li>
+					</ul>
+				</div>
+
+
+			</div>
+		</div>
+
+
+	</header>
+	<!-- [ Header ] end -->
+
+	<div></div>
+
+	<script>
+
+	</script>
+
+	<!-- [ Main Content ] start -->
+	<div class="pcoded-main-container">
+		<div class="pcoded-content">
+			<!-- [ breadcrumb ] start -->
+			<div class="page-header">
+				<div class="page-block">
+					<div class="row align-items-center">
+						<div class="col-md-12">
+							<div class="page-header-title">
+								<h5 class="m-b-10">
+
+								</h5>
+							</div>
+							<ul class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a>
+								</li>
+								<li class="breadcrumb-item"><a href="#!">Inicio</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- [ breadcrumb ] end -->
+			<!-- [ Main Content ] start -->
+			<div class="row">
+				<!-- [ sample-page ] start -->
+
+				<div class="col-lg-5 col-md-12 col-sm-12 col-12">
+					<div class="card">
+
+						<div class="card-header">
+							<h5>Avisos</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle btn-icon" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i
+														class="feather icon-maximize"></i> maximize</span><span
+													style="display:none"><i class="feather icon-minimize"></i>
+													Restore</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i
+														class="feather icon-minus"></i> collapse</span><span
+													style="display:none"><i class="feather icon-plus"></i>
+													expand</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i
+													class="feather icon-refresh-cw"></i> reload</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i
+													class="feather icon-trash"></i> remove</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut
+								aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+				<!-- Latest Customers start -->
+				<div class="col-lg-7 col-md-12">
+					<div class="card table-card review-card">
+						<div class="card-header borderless ">
+							<h5>Tareas</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i
+														class="feather icon-maximize"></i> maximize</span><span
+													style="display:none"><i class="feather icon-minimize"></i>
+													Restore</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i
+														class="feather icon-minus"></i> collapse</span><span
+													style="display:none"><i class="feather icon-plus"></i>
+													expand</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i
+													class="feather icon-refresh-cw"></i> reload</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i
+													class="feather icon-trash"></i> remove</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body pb-0 table-border-style">
+							<div class="table-responsive">
+								<table class="table ">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th _msttexthash="76193" _msthash="162">Nombre</th>
+											<th _msttexthash="112346" _msthash="163">Apellido</th>
+											<th _msttexthash="292526" _msthash="164">Nombre de usuario</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td _msttexthash="4459" _msthash="165">1</td>
+											<td _msttexthash="74958" _msthash="166">Marcar</td>
+											<td _msttexthash="47255" _msthash="167">Otto</td>
+											<td _msttexthash="43290" _msthash="168">@mdo</td>
+										</tr>
+										<tr>
+											<td _msttexthash="4550" _msthash="169">2</td>
+											<td _msttexthash="56849" _msthash="170">Jacob</td>
+											<td _msttexthash="118872" _msthash="171">Thornton</td>
+											<td _msttexthash="42861" _msthash="172">@fat</td>
+										</tr>
+										<tr>
+											<td _msttexthash="4641" _msthash="173">3</td>
+											<td _msttexthash="62465" _msthash="174">Larry</td>
+											<td _msttexthash="132535" _msthash="175">el pájaro</td>
+											<td _msttexthash="117962" _msthash="176">@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+				<div class="col-sm-12">
+					<div class="card">
+
+						<div class="card-header">
+							<h5>HORARIO</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle btn-icon" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i
+														class="feather icon-maximize"></i>
+													maximize</span><span style="display:none"><i
+														class="feather icon-minimize"></i>
+													Restore</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i
+														class="feather icon-minus"></i> collapse</span><span
+													style="display:none"><i class="feather icon-plus"></i>
+													expand</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i
+													class="feather icon-refresh-cw"></i> reload</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i
+													class="feather icon-trash"></i> remove</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+								nostrud
+								exercitation ullamco laboris nisi ut
+								aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								voluptate
+								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non
+								proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- [ sample-page ] end -->
+			</div>
+			<!-- [ Main Content ] end -->
+		</div>
+	</div>
+	<!-- [ Main Content ] end -->
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+	<!-- Required Js -->
+	<script src="assets/js/vendor-all.min.js"></script>
+	<script src="assets/js/plugins/bootstrap.min.js"></script>
+	<script src="assets/js/pcoded.min.js"></script>
+	<script src="assets/js/main_yrd.js"></script>
+
+
+
+
+</body>
+
+</html>
